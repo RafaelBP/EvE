@@ -1,0 +1,11 @@
+Heimatar Region Most Traded Goods (units/day)
+
+-Minmatar Frigates
+	- Rifter  ~ 1k 
+	- Breacher ~ 0.2 k
+
+
+-Ammo
+	-Missile
+		-Inferno Light Missile
+		-Mjolnir Light Missile

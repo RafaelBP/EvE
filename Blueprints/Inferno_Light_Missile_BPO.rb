@@ -5,8 +5,8 @@ class Inferno_Light_Missile_BPO < Blueprint
 	def initialize(name)
 		super(name)
 		@base_materials = {
-		:Tritanium =>52,
-        :Pyerite   =>65
+		:Tritanium =>57,
+        :Pyerite   =>72
 		}
 	end
 end
