@@ -9,5 +9,6 @@ class Nova_Light_Missile_BPO < Blueprint
         :Pyerite   => 15,
         :Mexallon  => 6
 		}
+		@units_per_run = 100
 	end
 end

@@ -13,7 +13,7 @@ class Quotation
 
 	REMOTE_BASE_URL = "http://api.eve-central.com/api/marketstat?"
 
-	attr_reader :sell_min_offers, :buy_max_offers
+	attr_reader :sell_min_offers, :buy_max_offers, :items, :system
 	
 	def initialize(items_hash, system_symb)
 		@sell_min_offers = {}
@@ -64,4 +64,13 @@ class Quotation
 			end
 		end
 	end
+
+	def sell(offer_symb)
+		return @sell_min_offers[offer_symb]
+	end
+
+	def buy(offer_symb)
+		return @buy_max_offers[offer_symb]
+	end
+	
 end

@@ -9,5 +9,6 @@ class Scourge_Light_Missile_BPO < Blueprint
         :Pyerite   => 43,
         :Mexallon  => 2
 		}
+		@units_per_run = 100
 	end
 end

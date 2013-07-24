@@ -8,6 +8,7 @@ class Inferno_Light_Missile_BPO < Blueprint
 		:Tritanium =>57,
         :Pyerite   =>72
 		}
+		@units_per_run = 100
 	end
 end
 
